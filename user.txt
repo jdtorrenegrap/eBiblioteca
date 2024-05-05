@@ -1,0 +1,7 @@
+estudiante
+usuario = pepe@ul.edu.co 
+contraseña = Pep3e@ul.edu.co
+
+docente
+usuario =  jprofe@ul.edu.co
+contraseña = jP0rofe@ul.edu.co
