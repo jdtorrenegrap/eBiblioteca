@@ -58,6 +58,7 @@ class TeacherController:
     def open_url(self, row, column):
         """Abrir la URL del recurso en el navegador"""
         url = self.teacher_controller_view.teacher.tabList.item(row, 2).text()
+        QDesktopServices.openUrl(QUrl(url))
     
     def search(self):
         search_text = self.teacher_controller_view.teacher.txtSearch.text().lower()
